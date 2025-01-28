@@ -1,0 +1,46 @@
+body{
+	 background-color:#FFCC70; 
+	 border:1px solid blue; padding:1em;
+	}
+/*This is an example of a tag selector, borders and paddings*/
+
+h1, .credit{text-align:center;}
+/*This is an example of a class selector and compound selector*/
+
+h1,h2{color:darkgreen;}
+
+p{color:black;
+  font-size:smaller;
+  font-family:Monaco;
+ }
+ 
+ nav{float:right;background-color:#7EF072;padding:10px;list-style:none;word-spacing:1.5em}
+ 
+ 
+ #population{margin-left: auto;
+			 margin-right: auto;}
+ /*This is an example of ID selector and margins*/
+ 
+ #map, #tower,#gate,#mysore{float:right;}
+ 
+ #pthead{background-color:#77A76B;}
+ #ptbody{background-color:#F8FBF8;}
+ #ptfoot{background-color:#F8F298 ;}
+ .wtext{color:black;}
+ 
+ #population,#pthead,#ptbody,#ptfoot{border: 1px solid black;
+									 padding:1px;}
+/*This is an example of a group selector*/
+								
+								
+#gate{padding-right:80px;}	
+#tower{padding-right:120px;}	
+#taj{padding-left:20px;}	
+#submit{background-color: #4CAF50; border-radius: 20px; 
+        padding: 20px 30px; color: white; display:block; margin:auto;}
+		
+#container{width: 70%;
+  margin: auto;}
+  
+ a{text-decoration:none;}
+ .navi2{display:inline;}

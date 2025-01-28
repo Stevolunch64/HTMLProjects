@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Sign Up</title>
+	<link href="styles2.css" rel="stylesheet"> 
+</head>
+<body>
+<div class="container">
+	<h1>Sign up to our newsletter</h1>
+	<form class="form1" action="https://tusprojects.net/wdf-country-response.php" method="post">
+		<fieldset>
+			<p><label for="name">First Name:</label>
+			<input type="text" name="fname" id="fname"></p>
+			
+			<p><label for="sname">Sur name:</label>
+			<input type="text" name="sname" id="sname"></p>
+			
+			<p><label for="email">Email:</label>
+			<input type="email" name="email" 
+			id="email"></p>
+			
+			<p><label for="phone">Phone:</label>
+			<input type="tel" name="phone" id="phone" placeholder="mobile"></p>
+			
+			<label for="age">Age:</label>
+				<select id="age" name="age">
+				  <option value="less than 18">less than 18</option>
+				  <option value="18 to 40">18 to 40</option>
+				  <option value="40 to 60">40 to 60</option>
+				  <option value="greater than 60">greater than 60</option>
+				</select>
+			
+			<fieldset>
+			<legend>Are you a citizen of India?</legend>
+			<p><label for="citizen">Yes</label>
+			<input type="radio" name="citizen" id="citizen"></p>
+			
+			<p><label for="citizen">No</label>
+			<input type="radio" name="citizen" id="citizen"></p>
+			</fieldset>
+			
+			<input type="Submit" id="submit1" value="Submit">
+			<input type="reset" id="reset" value="Reset">
+			
+			<input type="hidden" name="country" value="India">
+			
+			
+		</fieldset>
+		</form>
+	
+	<p id="sumbit">
+	<a href="index.html" target="blank"><input type="Submit" id="submit" value="Cancel"></a>
+	</p>
+</div>
+	
+	
+</body>
+</html>
