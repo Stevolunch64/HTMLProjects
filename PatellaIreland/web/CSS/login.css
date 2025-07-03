@@ -1,0 +1,57 @@
+
+html
+{
+    background-color: rgb(2, 89, 76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+}
+
+
+footer
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    
+  
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left:0;
+    
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+}
+
+form
+{
+    background-color: rgb(242, 232, 211);
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 14px 16px;
+  
+    margin-top: 10px;
+    
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+
+fieldset
+{
+   border: 3px solid black;
+   border-radius: 5px;
+  
+}

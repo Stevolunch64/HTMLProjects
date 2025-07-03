@@ -1,0 +1,46 @@
+
+html
+{
+    background-color: rgb(2, 89, 76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mainStuff
+{
+    background-color: rgb(242, 232, 211);
+    border: 10px solid black;
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    
+  
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left:0;
+    
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+}
+
